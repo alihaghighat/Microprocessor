@@ -1,0 +1,24 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+temperature                                                                       0x0260       8
+_seed                                                                             0x0268       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+i                                                                                 R4,R5        2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+LCD_Char                                                                          0x0006D     29
+LCD_Init                                                                          0x0008A     17
+LCD_Clear                                                                         0x0009B      7
+main                                                                              0x000A2    121
+strlen                                                                            0x0011B     12
+itoa                                                                              0x00127     46

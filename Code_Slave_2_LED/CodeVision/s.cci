@@ -1,0 +1,10 @@
+VERSION:3 SOURCE_TIMESTAMP:52F1A07C
+NODE:I LEVEL:0 LINE:1 "C:\cvavr\inc\io.h"
+NODE:I LEVEL:0 LINE:2 "C:\cvavr\inc\delay.h"
+NODE:I LEVEL:0 LINE:3 "mlcd_portc.h"
+NODE:I LEVEL:0 LINE:4 "C:\cvavr\inc\string.h"
+NODE:I LEVEL:0 LINE:5 "C:\cvavr\inc\stdio.h"
+NODE:I LEVEL:0 LINE:6 "C:\cvavr\inc\stdlib.h"
+NODE:V LEVEL:0 LINE:8 "i -> R4,R5"
+NODE:V LEVEL:0 LINE:9 "light_voltage -> RAM:????"
+NODE:F LEVEL:0 LINE:11 "main(void)"

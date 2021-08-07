@@ -1,0 +1,43 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+table                                                                             0x027F      16
+user_password                                                                     0x028F       5
+pressed_key_ascii                                                                 0x0294       8
+overflow_count                                                                    0x029C       4
+temperature                                                                       0x02A0       4
+humidity                                                                          0x02A4       4
+ldrValue                                                                          0x02A8       4
+_seed                                                                             0x02AC       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+i                                                                                 R4,R5        2
+j                                                                                 R6,R7        2
+pressed_key_integer                                                               R9           1
+ignore                                                                            R8           1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+LCD_Char                                                                          0x0008E     29
+LCD_Init                                                                          0x000AB     17
+LCD_String                                                                        0x000BC     28
+LCD_Clear                                                                         0x000D8      7
+keypad_init                                                                       0x000DF      5
+key_released                                                                      0x000E4      4
+key_pressed                                                                       0x000E8      7
+key_scan                                                                          0x000EF     79
+sht_start                                                                         0x0013E     10
+sht_read                                                                          0x00165     31
+ReadSensor                                                                        0x00184     34
+read_sensor                                                                       0x001A6    137
+main                                                                              0x0022F    261
+read_adc                                                                          0x00334     14
+timer0_ovf_isr                                                                    0x00342     27
+itoa                                                                              0x0035D     46
